@@ -1,31 +1,75 @@
 <html>
     <body>
-        <h2>College Details :</h2>
-        <input type="text" placeholder="Enter your first name">
+        <h2>Application Form</h2>
+        <form>
+        <label for="fullname">Full Name*</label>
+        <br>
+        <input type="text" placeholder="Enter Full name" required>
         <br>
         <br>
-        <input type="text" placeholder="Enter your last name">
+        <label for="fullname">Email*</label>
+        <br>
+        <input type="text" placeholder="Enter email" required>
         <br>
         <br>
-        <input type="text" placeholder="Enter your father's name">
+        <label for="course">Select Course*</label>
+        <br>
+        <select required>
+            <option selected disabled hidden>Select course</option>
+            <option>Full Stack Web Development</option>
+            <option>Advanced Web Development</option>
+        </select>
         <br>
         <br>
-        <input type="text" placeholder="Enter your mother's name">
+        <label for="phone">Phone*</label>
+        <br>
+        <input type="text" placeholder="Enter mobile number">
+        <br>
+        <label for="highest degree">Highest Degree*</label>
+        <br>
+        <select required>
+            <option selected disabled hidden>Select highest degree</option>
+            <option>B.E or B.Tech CS/IT</option>
+            <option>B.E or B.TECH Other</option>
+            <option>M.S or M.Tech CS/IT</option>
+            <option>M.S or M.Tech Other</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>Others</option>
+        </select>
         <br>
         <br>
-        <input type="text" placeholder="Enter Age">
+        <label for="year of completion">Year of Completion*</label>
+        <br>
+        <select required>
+            <option selected disabled hidden>Select year of completion</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </select>
         <br>
         <br>
-        <input type="text" placeholder="Enter your phone number">
+        <label for="skills">Programming Skills*</label>
+        <br>
+        <select required>
+            <option selected disabled hidden>Select programming skill level</option>
+            <option>No coding skills</option>
+            <option>Basic coding skills</option>
+            <option>Intermediate coding skills</option>
+            <option>Good coding skills</option>
+        </select>
         <br>
         <br>
-        <input type="email" placeholder="Enter your mail">
-        <br>
-        <br>
-        <input type="password" placeholder="Enter your password">
+        <input type="checkbox" required> By signing up,you agree <br>
+        to the Terms and Conditions of <br>
+        Geekster (QuantumBit <br>
+        technologies Pvt.Ltd)*
         <br>
         <br>
         <input type="submit">
-        <input type="reset">
+        </form>
     </body>
 </html>
